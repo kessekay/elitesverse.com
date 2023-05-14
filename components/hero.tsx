@@ -4,7 +4,7 @@ import Container from './container';
 const hero = () => {
   return (
     <Container>
-      <section className="flex flex-col items-center py-20 gap-6 w-full">
+      <section className="flex flex-col items-center max-sm:py-16 py-20 gap-6 w-full">
           <div className=" text-center flex flex-col gap-6">
             <h1 className=" text-6xl font-sans font-bold max-[350px]:text-4xl">ElitesVerse: The Information Platform</h1>
             <p className="text-xl text-gray-600">We inform, educate and update you one post at a time!</p>

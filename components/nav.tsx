@@ -43,19 +43,19 @@ const nav = () => {
             </span>
           </div>
         </nav>
-        <div className=" text-2xl hidden max-md:block">
+        <div className=" hidden max-md:block">
           <button className="" onClick={toggleDropdown}>
             <span>
               {isDropdownOpen ? (
-                <FontAwesomeIcon icon={faTimes} className=""/>
+                <FontAwesomeIcon icon={faTimes} className="text-2xl"/>
               ) : (
-                <FontAwesomeIcon icon={faBars} className=""/>
+                <FontAwesomeIcon icon={faBars} className="text-2xl"/>
               )}
             </span>
           </button>
           {isDropdownOpen && (
             <div className="bg-white border-r-2 drop-shadow-md absolute w-10/12 h-screen top-0 bottom-0 left-0 z-50">
-              <div className="flex flex-col items-center justify-evenly h-5/6 text-xl font-semibold">
+              <div className="flex flex-col items-center justify-evenly h-4/6 text-base font-semibold">
                 <Link href='/' className="hover:text-blue-600 duration-500 transition">Home</Link>
                 <Link href='/blog' className="hover:text-blue-600 duration-500 transition">Blog</Link>
                 <Link href='/contact' className="hover:text-blue-600 duration-500 transition">Contact</Link>
