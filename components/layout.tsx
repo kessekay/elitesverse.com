@@ -13,9 +13,9 @@ export default function Layout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="" />
         <link rel="icon" href="/logo.png" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5691070158347053"
-        crossOrigin="anonymous"></script>
       </Head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5691070158347053"
+      crossOrigin="anonymous"></script>
       <Nav />
         <div className="min-h-screen">
           <main>{children}</main>
