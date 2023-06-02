@@ -15,7 +15,7 @@ const blog = ({ allPosts: { edges }, preview }) => {
       </Head>
       <Container>
         <div>
-          <div className="text-6xl md:text-7xl font-bold tracking-tighter leading-tight mb-4">Recent</div>
+          <div className="text-6xl md:text-7xl font-bold tracking-tighter leading-tight mb-4 mt-8">Recent</div>
           {morePosts.length > 0 && <AllPosts posts={morePosts} />}
         </div>
       </Container>

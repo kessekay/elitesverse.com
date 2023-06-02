@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <>
       <div className="p-3 w-full bg-gradient-to-r from-sky-500 to-indigo-500"></div>
-      <footer className="bg-accent-1 border-accent-2 bottom-0 py-10 border-t">
+      <footer className="flex flex-col items-center bg-accent-1 border-accent-2 bottom-0 py-10 border-t">
         <Container>
           <div className="flex flex-col items-center text-base font-semibold">
             <div className="flex gap-1 items-center font-semibold mb-2">
@@ -17,6 +17,11 @@ export default function Footer() {
                 <Image src="/logo.png" alt='logo' width={30} height={30}/>
               </span>
               <p className="text-lg">ElitesVerse</p>
+            </div>
+            <div className="flex items-center gap-4">
+              <Link href="/privacy" className="hover:text-blue-500 transition duration-300">Privacy</Link>
+              <span>-</span>
+              <Link href="/terms" className="hover:text-blue-500 transition duration-300">Terms</Link>
             </div>
             <div className="flex flex-wrap gap-2 my-2">
               <Link href="https://web.facebook.com/profile.php?id=100092436578114" className="border border-black w-10 h-10 leading-10 text-base text-center hover:text-lg transition-all duration-300"><FontAwesomeIcon icon={faFacebookF} className="text-base" /></Link>

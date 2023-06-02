@@ -15,7 +15,7 @@ const nav = () => {
   }
 
   return (
-    <header className="sticky top-0 bg-white z-40">
+    <header className="sticky top-0 bg-white z-40 shadow-md">
       <div className="p-3 w-full bg-gradient-to-r from-sky-500 to-indigo-500"></div>
       <Container>
         <div className=" bg-white py-4 flex justify-between items-center">
@@ -35,7 +35,7 @@ const nav = () => {
               <Link href='/about' className="hover:text-blue-600 duration-500 transition">About</Link>
               <span>
                 <Link href="/">
-                  <button className="border-2 border-black rounded-lg px-2 py-1 text-sm">Learn More</button>
+                  <button className=" hidden border-2 border-black rounded-lg px-2 py-1 text-sm">Learn More</button>
                 </Link>
               </span>
               <span className="hidden">
@@ -62,7 +62,7 @@ const nav = () => {
                   <Link href='/about' className="hover:text-blue-600 duration-500 transition">About</Link>
                   <span>
                     <Link href="/">
-                      <button className="border-2 border-black rounded-lg px-2 py-1">Learn More</button>
+                      <button className=" hidden border-2 border-black rounded-lg px-2 py-1">Learn More</button>
                     </Link>
                   </span>
                 </div>
