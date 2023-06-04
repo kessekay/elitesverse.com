@@ -2,6 +2,7 @@ import Alert from './alert';
 import Footer from './footer';
 import Meta from './meta';
 import Nav from './nav';
+import Script from 'next/script';
 import Head from 'next/head';
 
 export default function Layout({ children }) {
@@ -14,8 +15,10 @@ export default function Layout({ children }) {
         <meta name="description" content="" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5691070158347053"
-      crossOrigin="anonymous"></script>
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5691070158347053"
+      crossOrigin="anonymous" />
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-088SCNDHYX" />
+      
       <Nav />
         <div className="min-h-screen">
           <main>{children}</main>

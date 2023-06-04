@@ -15,7 +15,7 @@ const nav = () => {
   }
 
   return (
-    <header className="sticky top-0 bg-white z-40 shadow-md">
+    <header className="sticky top-0 bg-white z-30 shadow-md">
       <div className="p-3 w-full bg-gradient-to-r from-sky-500 to-indigo-500"></div>
       <Container>
         <div className=" bg-white py-4 flex justify-between items-center">
@@ -44,7 +44,7 @@ const nav = () => {
             </div>
           </nav>
           <div className=" hidden max-md:block">
-            <button className="" onClick={toggleDropdown}>
+            <button className=" z-50" onClick={toggleDropdown}>
               <span>
                 {isDropdownOpen ? (
                   <FontAwesomeIcon icon={faTimes} className="text-2xl"/>
@@ -54,7 +54,7 @@ const nav = () => {
               </span>
             </button>
             {isDropdownOpen && (
-              <div className="bg-white border-r-2 drop-shadow-md absolute w-10/12 h-screen top-0 bottom-0 left-0 z-50">
+              <div className="bg-white border-r-2 drop-shadow-md absolute w-10/12 h-screen top-0 bottom-0 left-0 z-40">
                 <div className="flex flex-col items-center justify-evenly h-4/6 text-base font-semibold">
                   <Link href='/' className="hover:text-blue-600 duration-500 transition">Home</Link>
                   <Link href='/blog' className="hover:text-blue-600 duration-500 transition">Blog</Link>

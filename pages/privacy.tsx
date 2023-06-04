@@ -52,7 +52,7 @@ const privacy = () => {
 
             6. Children's Privacy <br />
 
-            ElitesVErse is not intended for individuals under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us, and we will take steps to remove that information from our records. <br />
+            ElitesVerse is not intended for individuals under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us, and we will take steps to remove that information from our records. <br />
 
             7. Third-Party Links <br />
           </p>
