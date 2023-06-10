@@ -8,7 +8,7 @@ import { faFacebookF, faInstagram, faTwitter, faYoutube, faTiktok } from '@forta
 export default function Footer() {
   return (
     <>
-      <div className="p-3 w-full bg-gradient-to-r from-sky-500 to-indigo-500"></div>
+      <div className="p-1 w-full bg-gradient-to-r from-sky-500 to-indigo-500"></div>
       <footer className="flex flex-col items-center bg-accent-1 border-accent-2 bottom-0 py-10 border-t">
         <Container>
           <div className="flex flex-col items-center text-base font-semibold">

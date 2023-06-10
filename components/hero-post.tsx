@@ -18,8 +18,8 @@ export default function HeroPost({
           <CoverImage title={title} coverImage={coverImage} slug={slug} />
         )}
       </div>
-      <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
-        <div>
+      <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28 p-4 bg-gradient-to-r from-sky-500 to-indigo-500">
+        <div className="text-white">
           <h3 className="mb-4 text-4xl lg:text-6xl leading-tight">
             <Link
               href={`/posts/${slug}`}
@@ -31,7 +31,7 @@ export default function HeroPost({
             <Date dateString={date} />
           </div>
         </div>
-        <div>
+        <div className="text-white">
           <div
             className="text-lg leading-relaxed mb-4"
             dangerouslySetInnerHTML={{ __html: excerpt }}

@@ -16,7 +16,7 @@ const nav = () => {
 
   return (
     <header className="sticky top-0 bg-white z-30 shadow-md">
-      <div className="p-3 w-full bg-gradient-to-r from-sky-500 to-indigo-500"></div>
+      <div className="p-2 w-full bg-gradient-to-r from-sky-500 to-indigo-500"></div>
       <Container>
         <div className=" bg-white py-4 flex justify-between items-center">
           <Link href="/">
@@ -71,6 +71,7 @@ const nav = () => {
           </div>
         </div>
       </Container>
+      
     </header>
   )
 }

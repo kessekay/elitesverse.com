@@ -18,8 +18,9 @@ export default function Index({ allPosts: { edges }, preview }) {
       <Head>
         <title>Home | {SITE_NAME}</title>
       </Head>
+      
       <Container>
-        <Hero />
+      <Hero />
         {heroPost && (
           <HeroPost
             title={heroPost.title}
